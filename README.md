@@ -8,5 +8,5 @@
     git init --bare $HOME/git/.dotfiles
     alias dotfiles='/usr/bin/git --git-dir=$HOME/git/.dotfiles/ --work-tree=$HOME'
     dotfiles config status.showUntrackedFiles no
-    git remote add -t \* -f origin git@github.com:viabar/.dotfiles.git
-    git checkout master
+    dotfiles remote add -t \* -f origin git@github.com:viabar/.dotfiles.git
+    dotfiles checkout master
