@@ -13,3 +13,4 @@ build_prompt () {
 }
 PROMPT_COMMAND=build_prompt
 alias dotfiles='/usr/bin/git --git-dir=$HOME/git/.dotfiles/ --work-tree=$HOME'
+. /cygdrive/c/bin/miniconda3/etc/profile.d/conda.sh
